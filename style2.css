@@ -1,0 +1,17 @@
+.container-fluid{
+	background-color: #6c2e89;
+	height: 5rem;
+}
+
+.row {
+	background-color: #ff9232;
+	height: 4.7rem;
+	margin: 10px;
+	text-align: center;
+	align-content: center;
+}
+
+.col-lg-4 {
+	border: 3px solid;
+	border-color: #000fff;
+}

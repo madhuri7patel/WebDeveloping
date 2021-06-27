@@ -1,0 +1,91 @@
+.jumbotron-fluid{
+	text-align: center;
+	height: 200px;
+	margin:  10px auto;
+	margin-left: 40px;
+}
+
+/* .sectionLight {
+	height: 200px;
+} */
+
+img {
+	width: fit-content;
+	height: 600px;
+	margin: auto;
+}
+
+.carousel {
+	width: 60%;
+	margin: auto;
+}
+.sectionDark{
+	background-color: gray;
+	margin: 20px auto;
+	width: 100%;
+	padding: 2rem;
+}
+
+.img1 {
+	height: 200px;
+	border-radius: 20px;
+}
+
+.coolStuffWrapper{
+
+	text-align: center;
+	margin: 20px auto;
+	padding: 0%;
+}
+
+.coolStuffBtn {
+	background-color: red;
+}
+
+.row {
+	width: 50%;
+	margin: auto;
+}
+
+h5.modal-title{
+	margin: auto;
+}
+
+.imgCenter{
+	display: block;
+	margin: auto;
+}
+
+.btnCenter{
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+
+}
+
+.imagecontainer{
+	display: inline-flex;
+	width: 100%;
+}
+
+.sectionLight {
+	width: 30%;
+	align-items: center;
+}
+
+.container-fluid{
+	margin-right: 20px;
+}
+
+.madhuri{
+	margin-right: auto;
+	width: 10%;
+}
+
+.footer {
+	margin: auto;
+}
+
+.insta {
+	height: 80px;
+}

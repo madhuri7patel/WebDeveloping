@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="flexnav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My landing page</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">Code<span class="madhu">Sense</span></div>
+        <ul class="topnav" id="navbar-toggle">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">Products</a></li>
+            <li><a class="nav-link" href="#">About Us</a></li>
+            <li><a class="nav-link" href="#">Contact</a</li>  
+            <li class="dropdownLink">
+                <a onclick="toggleDropdown()" class="icon" href="javascript:void(0)"> 
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="headrshot-wrapper">
+            <img class="head"src="cartoon.jpg" alt="profile image">
+            <h1>Cartoon pic</h1>
+        </div>
+    </header>
+    <section class="services">
+        <div class="container">
+        <div class="media-object">
+          <div class="icon-left">
+             <img class="icon"src="atom.jpg" alt="atom image">    
+          </div>  
+          <div class="blue-right">
+             <h3 class="blue">Scalable Code</h3>
+             <div class="blurb">
+                cras sit amet nibh libero, in gravide nulla. nulla
+                vel metus vestuibulm, tempus vivera.
+             </div> 
+          </div>
+        </div>
+        <div class="media-object">
+            <div class="icon-right">
+               <img class="icon"src="cartoon.jpg" alt="atom image">    
+            </div>  
+            <div class="blue-left">
+               <h3 class="blue">Scalable Code</h3>
+               <div class="blurb">
+                  cras sit amet nibh libero, in gravide nulla. nulla
+                  vel metus vestuibulm, tempus vivera.
+               </div> 
+            </div>
+          </div>
+        </div>
+        <div class="media-object">
+            <div class="icon-left">
+               <img class="icon3" src="pi.png" alt="atom image">    
+            </div>  
+            <div class="blue-right">
+               <h3 class="blue">Scalable Code</h3>
+               <div class="blurb">
+                  cras sit amet nibh libero, in gravide nulla. nulla
+                  vel metus vestuibulm, tempus vivera.
+               </div> 
+            </div>
+          </div>
+          <div class="quote-btn-wrapper">
+             <button class="quote-btn">Get a quote</button> 
+          </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="header">Previous Works</h1>
+            </div>
+            <div class="portfolio-wrapper">
+                <div class="portfolio-objects">
+                    <div class="portfolio-box"></div>
+                    <h4>Project</h4>
+                    <div class="portfolio-text">
+                        cras sit amet nibh libero, in gravide nulla. nulla
+                    </div>  
+                </div>
+                <div class="portfolio-objects">
+                    <div class="portfolio-box"></div>
+                    <h4>Project</h4>
+                    <div class="portfolio-text">
+                        cras sit amet nibh libero, in gravide nulla. nulla
+                    </div>  
+                </div>
+                <div class="portfolio-objects">
+                    <div class="portfolio-box"></div>
+                    <h4>Project</h4>
+                    <div class="portfolio-text">
+                        cras sit amet nibh libero, in gravide nulla. nulla
+                    </div>  
+                </div>
+                <div class="portfolio-objects">
+                    <div class="portfolio-box"></div>
+                    <h4>Project</h4>
+                    <div class="portfolio-text">
+                        cras sit amet nibh libero, in gravide nulla. nulla
+                    </div>  
+                </div>
+                <div class="portfolio-objects">
+                    <div class="portfolio-box"></div>
+                    <h4>Project</h4>
+                    <div class="portfolio-text">
+                        cras sit amet nibh libero, in gravide nulla. nulla
+                    </div>  
+                </div>
+                <div class="portfolio-objects">
+                    <div class="portfolio-box"></div>
+                    <h4>Project</h4>
+                    <div class="portfolio-text">
+                        cras sit amet nibh libero, in gravide nulla. nulla
+                    </div>            
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section class="contact-container">
+        <div class="container">
+            <div class="section-header">
+                <h1>Drop Us a line</h1>
+            </div>
+            <form action="">
+                <label for="email">*email</label>
+                <div class="from-group">
+                    <input type="email" id="email">
+                </div>
+                <label for="name">*name</label>
+                <div class="from-group">
+                    <input type="text" id="name">
+                </div>
+                <label for="message">*message</label>
+                <div class="from-group">
+                <textarea class="from-control" id="message" rows="6"></textarea>
+                </div>
+                <div class="subit-btn-wrapper">
+                    <button class="quote-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main6.js"></script>
+</body>
+
+</html>

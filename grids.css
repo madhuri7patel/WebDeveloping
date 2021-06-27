@@ -1,0 +1,109 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+}
+
+
+
+
+
+.navbar{
+    background-color: gray;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 0px -2px 7px black;
+    margin-bottom: 15px;
+   
+}
+
+.navbar > a{
+    color: aqua;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+section h1{
+    text-align: center;
+    color: blue;
+}
+
+section{
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-items: center;
+
+}
+
+.portfolio-item{
+    height: 150px;
+    width: 175px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.portfolio-item:nth-child(even){
+    background-color: transparent;
+    border: 2px solid black;
+    color: red;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "from from . fb twitter"
+    "from from . youtube google";
+    grid: 10px;
+}
+
+.fb, .twitter, .youtube, .google{
+    width: 175px;
+    height: 175px;
+    color: red;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 7px black;
+    background-color: aquamarine;
+}
+
+.from {grid-area: from;}
+.fb {grid-area: fb;}
+.twitter{grid-area: youtube;}
+.google{grid-area: google;}
+    
+label{
+    display: block;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 15px 8px;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+    footer{
+        text-align: center;
+        background-color: gray;
+        padding: 10px;
+        text-align: right;
+        box-shadow: 0px 2px 7px black;
+        margin-top: 15px;
+       
+    }
