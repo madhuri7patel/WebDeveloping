@@ -1,0 +1,1 @@
+#include <stdio.h> // ismay hota hai ki is process ke run hote time koi aur process nhi hogi sath may.

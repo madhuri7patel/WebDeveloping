@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<tittle>Learn css</tittle>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		h1{
+			color: purple;
+			background: yellow;
+		}
+		h2{
+			color: turquoise;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color: red; border: 3px solid dotted blue">lets eat icecream</h1>
+	<h2 style="color: green;">I love css </h2>
+		
+	
+</body>
+</html>

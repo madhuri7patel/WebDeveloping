@@ -1,0 +1,20 @@
+void f1(int x,int y){    // formal variable // call by value.
+    main(){
+        int a=3, b=4;
+        f1(a,b);
+    }
+}
+
+void f2(int *p,int *q){  // pointer variable use adress // call by adress.
+    main(){
+        int a=3, b=4;
+        f2(&a,&b);
+    }
+}
+
+void f3(int&m int&n){  // reference variable.use refrence
+    main(){
+        int a=3, b=4;
+        f2(&a,&b);
+    }
+}
